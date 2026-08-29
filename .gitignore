@@ -1,1 +1,5 @@
 /sourceme.sh
+/src/generate-theme/*.ini
+/build/
+/temp/
+/themes/
