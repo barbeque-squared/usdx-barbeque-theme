@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg>
+<!--
+<svg viewBox="0 0 2340 255" width="2340px" height="255px">
+  <rect fill="black" opacity="0.2" x="0" y="0" width="2340" height="300" rx="30" />
+</svg>
+-->
+<svg viewBox="0 0 800 100" width="800px" height="100px">
+  <defs>
+    <linearGradient id="fade-in-vertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="black" stop-opacity="0" />
+      <stop offset="100%" stop-color="black" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="fade-out-vertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="black" stop-opacity="1" />
+      <stop offset="100%" stop-color="black" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect fill="url('#fade-in-vertical')" opacity="0.275" x="0" y="0" width="800" height="10" />
+  <rect fill="black" opacity="0.275" x="0" y="10" width="800" height="80" />
+  <rect fill="url('#fade-out-vertical')" opacity="0.275" x="0" y="90" width="800" height="10" />
+</svg>

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg>
+<svg viewBox="0 0 20 10" width="512px" height="256px">
+  <rect fill="white" x="0" y="0" width="20" height="10" rx="1" />
+  <rect fill="black" x="0.4" y="0.4" width="19.2" height="9.2" rx="0.7" />
+  <text fill="white" x="50%" y="50%" font-size="7" dominant-baseline="middle" text-anchor="middle">TEXT</text>
+</svg>
