@@ -1,8 +1,12 @@
 #!/bin/sh
+set -e
+# debug
+#set -x
 source ./sourceme.sh
 
 rm -rf build/*
 rm -rf temp/*
+mkdir -p build temp
 
 # create temp images
 # MLK @ GC2024
@@ -87,7 +91,7 @@ mv src/generate-theme/barbeque.one-Widescreen.ini temp/.
 cp src/theme-variants/*.ini build/.
 
 # make themes work on dev git
-DEVGIT=~"${USDX_GIT}/game/themes"
+DEVGIT="${USDX_GIT}/game/themes"
 rm -rf themes/*
 for i in barbeque.one-Widescreen; do
   mkdir -p "themes/${i}"
