@@ -25,6 +25,9 @@ for i in barbeque.one-Widescreen; do
   cp "temp/${i}.ini" "themes/${i}.ini"
   # copy USDX theme
   cp --preserve=mode "${DEVGIT}/Modern/"* "themes/${i}/".
+  # Remove default skins and SOME now unnecessary images
+  rm -f "themes/${i}/"*.ini
+  rm -f "themes/${i}/"'[bg-'*
   # modify with our stuff
   cp --preserve=mode build/* "themes/${i}/".
   sed -i "s/Theme=Modern/Theme=${i}/" "themes/${i}/"*.ini
