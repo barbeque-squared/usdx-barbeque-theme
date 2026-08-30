@@ -52,12 +52,8 @@ class ThemeWriter:
 
   def _writeSongSelectionScreens(self):
     self._writeSongSelectionDuetPlayers('Roulette', 535, 415)
-    self._writeSongSelectionDuetPlayers('Carousel', 535, 415)
-    self._writeSongSelectionDuetPlayers('SlotMachine', 295, 435)
-    self._writeSongSelectionDuetPlayers('Slide', 535, 415)
     self._writeSongSelectionDuetPlayers('List', 553, 240)
     self._writeSongSelectionDuetPlayers('Chessboard', 310, 435)
-    self._writeSongSelectionDuetPlayers('Mosaic', 565, 435)
 
   def _writeSongSelectionDuetPlayers(self, name: str, x: int, y: int):
     height=30
