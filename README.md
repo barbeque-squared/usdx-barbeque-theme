@@ -44,3 +44,7 @@ There is currently no functionality for this in USDX.
 
 ### The oscilloscope is hidden behind the scores
 USDX always make the score 5 digits, my local build does not.
+
+### Empty space on singing screen
+Currently, the area where the notes are drawn is hardcoded in USDX.
+In my local build this is hardcoded to a slightly bigger area.
