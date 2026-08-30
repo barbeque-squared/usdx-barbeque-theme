@@ -77,7 +77,7 @@ magick -background none -fill white -font "DejaVu-Sans-Condensed-Bold" -pointsiz
 # lyric/time bars
 inkscape src/sing-textbar.svg --export-filename="build/[sing]textBar.png"
 inkscape src/sing-textbar-top.svg --export-filename="build/[sing]textBarDuet.png"
-inkscape src/sing-timebar.svg --export-filename="build/[sing]timeBarBG.png"
+magick -size 1x1 xc:'#000000ff' "build/[sing]timeBarBG.png"
 
 # default cover
 # MLK @ GC2024
