@@ -48,3 +48,6 @@ USDX always make the score 5 digits, my local build does not.
 ### Empty space on singing screen
 Currently, the area where the notes are drawn is hardcoded in USDX.
 In my local build this is hardcoded to a slightly bigger area.
+
+## Future
+Eventually I hope to start updating the Modern theme that USDX ships with in this direction.
