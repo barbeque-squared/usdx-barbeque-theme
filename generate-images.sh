@@ -82,3 +82,9 @@ inkscape src/sing-timebar.svg --export-filename="build/[sing]timeBarBG.png"
 # default cover
 # MLK @ GC2024
 cp src/images/mlk/Card-crop-for-songCover.jpg build/[main]songCover-mlk-gc2024.jpg
+
+# dummy images to replace ones that are now obsolete
+magick -size 1x1 xc:'#00000000' build/[score]rating_0.png
+for i in {1..7}; do
+  cp build/[score]rating_0.png "build/[score]rating_${i}.png"
+done
